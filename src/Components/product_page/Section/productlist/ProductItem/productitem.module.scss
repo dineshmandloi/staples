@@ -1,0 +1,35 @@
+.productItem{
+    display: flex;
+    border: 1px solid #e7e7e7;
+    margin-top: 20px;
+    .productImg{
+        display: flex;
+    max-width: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-right: 1px solid #e7e7e7;
+    padding: 10px;
+        img{
+            max-width: 160px;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    .product_detail{
+        flex: 1 1;
+    border-right: 1px solid #e7e7e7;
+    padding: 20px;
+    font-size: 13px;
+    div{
+        margin-bottom: 10px;
+
+    }
+    }
+    .product_content{
+        padding: 20px;
+        font-size: 14px;
+    }
+}

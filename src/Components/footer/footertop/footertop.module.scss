@@ -1,0 +1,98 @@
+@import '/src/Components/utilities.module.scss';
+@import '../respo.scss';
+
+
+.footertop{
+    display: flex;
+    padding: 50px 0 10px 0;
+    .footmenu{
+        flex: 1 1 50%;
+        padding: 0 4px;
+        margin-bottom: 15px;
+        h3{
+            margin: 0;
+            color: white;
+            font-weight: 500;
+
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li
+            {
+                padding: 6px 0 ;
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+.foot_top{
+    background: #666;
+    padding: 20px 0;
+.footmid{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+
+    .midImg{
+        display: flex;
+
+        img{
+            width: 100%;
+        }
+    }
+    h5{
+        margin: 0;
+        margin-bottom: 7px;
+        color: white;
+    }
+    img{
+        margin-left: 15px;
+    }
+
+.socialMedia{
+    i{
+        font-size: 32px;
+        color: white;
+        padding-right: 14px;
+    
+    }
+}
+}
+}
+
+.copyright{
+    padding:20px 0 ;
+    div{
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        ul{
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .listA{
+                border: 0;
+            }
+            li{
+                padding: 0 12px;
+                border-left: 2px solid #fff;
+               a{
+                   color: white;
+                   text-decoration: none;
+                   text-align: center;
+                   font-size: 14px;
+               }
+
+            }
+        }
+    }
+}

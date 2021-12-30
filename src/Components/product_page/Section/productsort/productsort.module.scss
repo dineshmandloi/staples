@@ -1,0 +1,40 @@
+.productsort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0;
+    .sort_gridview{
+        display: flex;
+        align-items: center;
+        .sort{
+            margin-right: 26px; 
+            select{
+                min-width: 222px;
+    height: 38px;
+    padding-left: 6px;
+    font-size: 14px;
+    text-transform: capitalize
+            }
+        }
+        .list_grid_view{
+        button{
+            font-size: 20px;
+    padding: 6px 18px;
+    background: white;
+    border: 1px solid #444;
+        }
+        :nth-child(2){
+            background-color: #444;
+            color: white;
+            border: 1px solid #444;
+
+
+        }
+
+    }
+    }
+
+}
+
+@import '/src/Components/utilities.module.scss';
+@import '/src/Components/Responsive.module.scss';

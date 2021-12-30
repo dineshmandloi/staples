@@ -1,0 +1,15 @@
+@import '/src/Components/utilities.module.scss';
+
+.middleTop{
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.hTop{
+    border-bottom: 1px solid #e7e7e7;
+}
+
+@media only screen and (max-width:1023px){
+    .container{
+        padding: 0;
+    }
+}

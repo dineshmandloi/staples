@@ -1,0 +1,44 @@
+
+.topsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+    .rightText{
+        img{
+        max-width: 300px;
+    }
+    h2{
+        font-weight: 300;
+    font-size: 30px;
+    color: #444;
+    }
+        p{
+            font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 6px;
+        }
+        a{
+            text-decoration: none;
+    font-size: 22px;
+    font-weight: 300;
+    color: #444;
+        }
+    }
+    .topsecItem{
+        margin: 10px 3px 0;
+        max-width: calc(50% - 6px);
+        flex: 1 1 50%;
+        img{
+            width: 100%;
+        }
+    }
+   
+}
+
+
+
+
+@import '../respo.scss';

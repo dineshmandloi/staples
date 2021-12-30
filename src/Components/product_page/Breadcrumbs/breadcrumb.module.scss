@@ -1,0 +1,33 @@
+.breadcrumb{
+    border: 1px solid #e7e7e7;
+    margin-bottom: 40px;
+    ul{
+    list-style: none;
+    display: flex;
+    padding: 10px 20px;
+    li{
+       + li:before {
+        padding: 8px;
+        color: #444;
+        content: "/ ";
+        font-size: 13px;
+          }
+       
+
+        a{
+            color: #444;
+            font-size: 14px;
+            text-transform: capitalize;
+           
+        }
+       
+    }
+    li:last-of-type a{
+        text-decoration: none;
+        pointer-events: none
+    }
+    }
+}
+
+
+@import '/src/Components/utilities.module.scss';
